@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## My Project use reference on : 
+https://medium.com/technoetics/create-a-developer-portfolio-using-reactjs-d34ea1bfb18e 
+Please also check his github :)
+
 ## Available Scripts
 
 In the project directory, you can run:
