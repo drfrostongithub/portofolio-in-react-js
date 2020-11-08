@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 export default class Header extends Component {
     render () {
+        let resumeData = this.props.resumeData
         return (
             <React.Fragment>
                 <header id="home">
@@ -19,8 +20,9 @@ export default class Header extends Component {
                 </nav> {/* end #nav-wrap */}
                 <div className="row banner">
                     <div className="banner-text">
-                    <h1 className="responsive-headline">I'm Putra Reza Fardani.</h1>
-                    <h3>Jakarta based <span>Fullstack Engineer</span>, expert in <span>Front-End</span> and also <span>Back-End</span>, creating an awesome and
+                    
+                    <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
+                        <h3>Jakarta based <span>{resumeData.role}</span>, expert in <span>Front-End</span> and also <span>Back-End</span>, creating an awesome and
                         effective web for both corporate and start-up alike. Let's <a className="smoothscroll" href="#about">start scrolling </a>
                         and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                     <hr />

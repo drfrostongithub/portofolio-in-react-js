@@ -13,7 +13,7 @@ export default class About extends Component {
                     <h2>About Me</h2>
                     <p>•	Able to handle view that emphasize both human side (user) and also technical side (computer). <br></br>
                     •	Adept at implementing Back-End and leading effective Front-End and practical usability for company in limited resource <br></br>
-                    •	Also technically competent Human Resource with nearly two years’ experience in the HR, and great at communicating with user.
+                    •	Also technically competent Human Resource with nearly two years’ experience in the HR, and great at communicating with user and team-alike.
                     </p>
                     <div className="row">
                         <div className="columns contact-details">

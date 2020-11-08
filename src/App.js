@@ -7,6 +7,7 @@ import Testimonials from './components/testimonials/testimonials';
 import ContacMe from './components/contacme/contacme';
 import Footer from './components/footer/footer';
 import {motion} from 'framer-motion' 
+import resumeData from './components/resume/resumeData'
 
 class App extends Component {
     render () {
@@ -26,7 +27,7 @@ class App extends Component {
             duration: 5
           }}
         >
-          <Header />
+          <Header resumeData={resumeData} />
           <About />
           <Resume />
           <Portofolio />

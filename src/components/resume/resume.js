@@ -17,7 +17,7 @@ export default class Resume extends Component {
                         <h3>Padjadjaran University</h3>
                         <p className="info">Bachelor in Psychology <span>•</span> <em className="date">2017</em></p>
                         <p>
-                            Finishing my degree in Psychology
+                            Finishing my degree in Psychology, learn how to interact in social and organizations, both formal and informal.
                         </p>
                         </div>
                     </div> {/* item end */}
