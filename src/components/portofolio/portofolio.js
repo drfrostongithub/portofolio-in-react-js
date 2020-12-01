@@ -41,7 +41,7 @@ export default class Portofolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-03" title>
-                            <img alt="" src="images/portfolio/kanban.png" />
+                            <img alt="" src="images/portfolio/kanban.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Kanban Web Application</h5>
@@ -83,7 +83,7 @@ export default class Portofolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-06" title>
-                            <img alt="" src="images/portfolio/Github.png" />
+                            <img alt="" src="images/portfolio/github.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Github Search API with Vue Js and PWA</h5>
@@ -101,6 +101,20 @@ export default class Portofolio extends Component {
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Portofolio with React Js and Framer</h5>
+                                <p>Front-End Project</p>
+                                </div>
+                            </div>
+                            <div className="link-icon"><i className="icon-plus" /></div>
+                            </a>
+                        </div>
+                        </div> {/* item end */}
+                        <div className="columns portfolio-item">
+                        <div className="item-wrap">
+                            <a href="#modal-08" title>
+                            <img alt="" src="images/portfolio/landingpage.jpg" />
+                            <div className="overlay">
+                                <div className="portfolio-item-meta">
+                                <h5>Landing Page</h5>
                                 <p>Front-End Project</p>
                                 </div>
                             </div>
@@ -169,7 +183,7 @@ export default class Portofolio extends Component {
                     <div className="description-box">
                         <h4>Google Clone</h4>
                         <p>This is a project from Odin-project which teach you how to make a Google Search in basic HTML and CSS.</p>
-                        <span className="categories"><i className="fa fa-tag" />Front-End, Github API Vue</span>
+                        <span className="categories"><i className="fa fa-tag" />Front-End, Github API Vue, HTML, CSS</span>
                     </div>
                     <div className="link-box">
                         <a href="https://drfrostongithub.github.io/google-homepage/">Web </a>
@@ -182,7 +196,7 @@ export default class Portofolio extends Component {
                     <div className="description-box">
                         <h4>Github ID Search</h4>
                         <p>This Application using Github API with PWA Vue Js, you can search github id without backend</p>
-                        <span className="categories"><i className="fa fa-tag" />Front-End, Google Clone</span>
+                        <span className="categories"><i className="fa fa-tag" />Front-End, Google Clone, HTML, CSS</span>
                     </div>
                     <div className="link-box">
                         <a href="https://vue-pwa-github-api.herokuapp.com/">Web </a>
@@ -195,13 +209,26 @@ export default class Portofolio extends Component {
                     <div className="description-box">
                         <h4>Portofolio</h4>
                         <p>You already saw it now, I'm using React Js and Framer Motion to generate the animation.</p>
-                        <span className="categories"><i className="fa fa-tag" />Front End, Portofolio</span>
+                        <span className="categories"><i className="fa fa-tag" />Front End, Portofolio, React JS</span>
                     </div>
                     <div className="link-box">
                         <a href="https://github.com/drfrostongithub/portofolio-in-react-js">Code</a>
                         <a className="popup-modal-dismiss">Close</a>
                     </div>
                     </div>{/* modal-07 End */}
+                    <div id="modal-08" className="popup-modal mfp-hide">
+                    <img className="scale-with-grid" src="images/portfolio/modals/landingpage.jpg" alt="" />
+                    <div className="description-box">
+                        <h4>Portofolio</h4>
+                        <p>Another Version of Landing Page for Domainesia.</p>
+                        <span className="categories"><i className="fa fa-tag" />Front End, Portofolio, Vue JS</span>
+                    </div>
+                    <div className="link-box">
+                        <a href="https://landing-page-93c52.web.app/">Web </a>
+                        <a href="https://github.com/drfrostongithub/landing_page">Code</a>
+                        <a className="popup-modal-dismiss">Close</a>
+                    </div>
+                    </div>{/* modal-08 End */}
                 </div> {/* row End */}
                 </section> {/* Portfolio Section End*/}
             </React.Fragment>

@@ -9,7 +9,7 @@ export default class Footer extends Component {
                     <div className="twelve columns">
                     <ul className="social-links">
                         <li><a href="https://github.com/drfrostongithub"><i className="fa fa-github" /></a></li>
-                        <li><a href="#" aria-disabled><i className="fa fa-twitter" /></a></li>
+                        <li><a href="/" aria-disabled><i className="fa fa-twitter" /></a></li>
                         <li><a href="https://www.linkedin.com/in/putra-reza-f-3b226253/"><i className="fa fa-linkedin" /></a></li>
                         <li><a href="https://www.instagram.com/drdotfrost/"><i className="fa fa-instagram" /></a></li>
                     </ul>
