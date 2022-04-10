@@ -20,10 +20,6 @@ export default class About extends Component {
                         <h2>Contact Details</h2>
                         <p className="address">
                             <span>Putra Reza Fardani</span><br />
-                            <span>Tabah Raya Street, No 4<br />
-                            North Jakarta, DKI Jakarta 14240 IDN
-                            </span><br />
-                            <span>(081)80-6957-340</span><br />
                             <span>business.putrarezafardani@gmail.com</span>
                         </p>
                         </div>

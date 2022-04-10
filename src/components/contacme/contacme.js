@@ -56,9 +56,7 @@ export default class ContacMe extends Component {
                         <h4>Address and Phone</h4>
                         <p className="address">
                         <span>Putra Reza Fardani</span><br />
-                        <span>Tabah Raya Street, No 4<br />
-                        North Jakarta, DKI Jakarta 14240 IDN
-                        </span><br />
+                        <span>Indonesia</span><br />
                         </p>
                     </div>
                     </aside>
