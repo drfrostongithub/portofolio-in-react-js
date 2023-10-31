@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 https://medium.com/technoetics/create-a-developer-portfolio-using-reactjs-d34ea1bfb18e 
 Please also check his github :)
 
+## Deployed using netlify
+- Try to install with npm i netlify-cli
+- use netlify deploy --prod
+- Deployed on https://frost-works.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
