@@ -144,9 +144,7 @@ const Portofolio = () => {
               </div>
               <div className='link-box'>
                 {item.webLink ? <a href={item.webLink}>Web</a> : null}
-                <a href={item.codeLink} className='popup-modal-dismiss'>
-                  Code
-                </a>
+                <a href={item.codeLink}>Code</a>
                 <a className='popup-modal-dismiss'>Close</a>
               </div>
             </div>

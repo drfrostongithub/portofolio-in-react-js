@@ -1,4 +1,5 @@
 import React from "react";
+import socialLinks from "../socialMedia";
 
 const Header = ({ resumeData }) => {
   const navItems = [
@@ -8,24 +9,6 @@ const Header = ({ resumeData }) => {
     { name: "Works", link: "#portfolio" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
-  ];
-
-  const socialLinks = [
-    {
-      name: "Github",
-      link: "https://github.com/drfrostongithub",
-      icon: "fa fa-github",
-    },
-    {
-      name: "LinkedIn",
-      link: "https://www.linkedin.com/in/putra-reza-f-3b226253/",
-      icon: "fa fa-linkedin",
-    },
-    // {
-    //   name: "Instagram",
-    //   link: "https://www.instagram.com/drdotfrost/",
-    //   icon: "fa fa-instagram",
-    // },
   ];
 
   return (
