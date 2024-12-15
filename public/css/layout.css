@@ -544,6 +544,7 @@ ul#nav li.current a { color: #F06000; }
    padding: 18px 36px;
    background: #111;
    text-align: left;
+   gap: 3px;
 }
 .popup-modal .link-box a {
    color: #fff;
@@ -560,6 +561,10 @@ ul#nav li.current a { color: #F06000; }
   overflow-x: auto;
   gap: 10px; /* Adjust as needed */
   padding: 10px; /* Adjust as needed */
+}
+
+.image-container img {
+   object-fit: contain;
 }
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */

@@ -98,28 +98,28 @@ const Portofolio = () => {
   ];
 
   return (
-    <React.Fragment>
-      <section id='portfolio'>
-        <div className='row'>
-          <div className='twelve columns collapsed'>
+    <>
+      <section id="portfolio">
+        <div className="row">
+          <div className="twelve columns collapsed">
             <h1>Check out some of my personal works.</h1>
             <div
-              id='portfolio-wrapper'
-              className='bgrid-quarters s-bgrid-thirds cf'
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
             >
               {portfolioItems.map((item, index) => (
-                <div key={item.id} className='columns portfolio-item'>
-                  <div className='item-wrap'>
+                <div key={item.id} className="columns portfolio-item">
+                  <div className="item-wrap">
                     <a href={`#modal-${item.id}`} title>
-                      <img alt='' src={item.image} />
-                      <div className='overlay'>
-                        <div className='portfolio-item-meta'>
+                      <img alt="" src={item.image} />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
                           <h5>{item.title}</h5>
                           <p>{item.description}</p>
                         </div>
                       </div>
-                      <div className='link-icon'>
-                        <i className='icon-plus' />
+                      <div className="link-icon">
+                        <i className="icon-plus" />
                       </div>
                     </a>
                   </div>
@@ -128,30 +128,34 @@ const Portofolio = () => {
             </div>{" "}
           </div>{" "}
           {portfolioItems.map((item) => (
-            <div id={`modal-${item.id}`} className='popup-modal mfp-hide'>
+            <div id={`modal-${item.id}`} className="popup-modal mfp-hide">
               <img
-                className='scale-with-grid'
+                className="scale-with-grid"
                 src={item.modalImage}
                 alt={item.image}
               />
-              <div className='description-box'>
+              <div className="description-box">
                 <h4>{item.title}</h4>
                 <p>{item.description}</p>
-                <span className='categories'>
-                  <i className='fa fa-tag' />
+                <span className="categories">
+                  <i className="fa fa-tag" />
                   {item.categories}
                 </span>
               </div>
-              <div className='link-box'>
+              <div className="link-box">
                 {item.webLink ? <a href={item.webLink}>Web</a> : null}
-                <a href={item.codeLink}>Code</a>
-                <a className='popup-modal-dismiss'>Close</a>
+                <a href={item.codeLink} className="popup-modal-dismiss">
+                  Code
+                </a>
+                <a href="/" className="popup-modal-dismiss">
+                  Close
+                </a>
               </div>
             </div>
           ))}
         </div>{" "}
       </section>{" "}
-    </React.Fragment>
+    </>
   );
 };
 

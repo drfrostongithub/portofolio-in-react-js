@@ -53,27 +53,27 @@ const WorkPortofolio = () => {
   ];
   return (
     <>
-      <section id='portfolio'>
-        <div className='row'>
-          <div className='twelve columns collapsed'>
+      <section id="portfolio">
+        <div className="row">
+          <div className="twelve columns collapsed">
             <h1>Check out some of my professional works.</h1>
             <div
-              id='portfolio-wrapper'
-              className='bgrid-quarters s-bgrid-thirds cf'
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
             >
               {portfolioItems.map((item, index) => (
-                <div key={item.id} className='columns portfolio-item'>
-                  <div className='item-wrap'>
+                <div key={item.id} className="columns portfolio-item">
+                  <div className="item-wrap">
                     <a href={`#work-modal-${item.id}`} title>
-                      <img alt='' src={item.images[0]} />
-                      <div className='overlay'>
-                        <div className='portfolio-item-meta'>
+                      <img alt="" src={item.images[0]} />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
                           <h5>{item.company}</h5>
                           <p>{item.description}</p>
                         </div>
                       </div>
-                      <div className='link-icon'>
-                        <i className='icon-plus' />
+                      <div className="link-icon">
+                        <i className="icon-plus" />
                       </div>
                     </a>
                   </div>
@@ -82,28 +82,29 @@ const WorkPortofolio = () => {
             </div>{" "}
           </div>{" "}
           {portfolioItems.map((item) => (
-            <div id={`work-modal-${item.id}`} className='popup-modal mfp-hide'>
-              <div className='image-container'>
+            <div id={`work-modal-${item.id}`} className="popup-modal mfp-hide">
+              <div className="image-container">
                 {item.images.map((image, index) => (
                   <img
                     key={index}
-                    className='scale-with-grid'
                     src={image}
                     alt={`${item.company}-${index}`}
                   />
                 ))}
               </div>
-              <div className='description-box'>
+              <div className="description-box">
                 <h4>{item.company}</h4>
                 <p>{item.description}</p>
-                <span className='categories'>
-                  <i className='fa fa-tag' />
+                <span className="categories">
+                  <i className="fa fa-tag" />
                   {item.categories}
                 </span>
               </div>
-              <div className='link-box'>
+              <div className="link-box">
                 {item.webLink ? <a href={item.webLink}>Website</a> : null}
-                <a className='popup-modal-dismiss'>Close</a>
+                <a href="/" className="popup-modal-dismiss">
+                  Close
+                </a>
               </div>
             </div>
           ))}
